@@ -10,9 +10,9 @@
  */
 
 import { base64_decode, base64_encode } from '../base64';
-import { bytify, debug } from '../util';
+import { bytify, debug, toHex } from '../util';
 
-export var DISK_TYPES = ['dsk','d13','do','po','raw','nib','2mg'];
+export var DISK_TYPES = ['dsk','d13','do','po','raw','nib','2mg','woz'];
 
 export default function DiskII(io, slot, callbacks)
 {
