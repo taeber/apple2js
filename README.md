@@ -36,5 +36,5 @@ To add additional disk images, use
 then
 
 ```sh
-./bin/index`
+./bin/index
 ```
